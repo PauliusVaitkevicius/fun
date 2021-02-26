@@ -39,6 +39,6 @@ while end >= start:
     s_inv += s[end - start]
     start += 1
 end_time = timer()
-print("\nClassic fasest")
+print("\nClassic - fasest")
 print(s_inv)
 print("Done in: {}".format(end_time - start_time))
